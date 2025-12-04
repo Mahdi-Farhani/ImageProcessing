@@ -14,6 +14,19 @@ This module contains implementations of various distance metrics used in image p
 - ❌ Kullback–Leibler Divergence
 - ❌ Jensen–Shannon distance
 - ❌ Earth Mover’s distance
+- ❌ Hausdorff distance
+- ❌ Modified Hausdorff distance
+- ❌ Chamfer distance
+- ❌ Structural Dissimilarity
+- ❌ Gradient Magnitude Similarity Deviation
+- ❌ Learned Perceptual distance
+- ❌ Jaccard distance
+- ❌ Dice distance
+- ❌ Tanimoto distance
+- ❌ Mahalanobis distance
+- ❌ Pearson Correlation distance
+- ❌ RBF Kernel distance
+- ❌ Persistent Homology distance
 
 Each metric is implemented in its own file for modularity, while a unified API is provided in `api.py` for simple usage.
 
