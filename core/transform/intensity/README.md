@@ -24,3 +24,41 @@ Transforms that operate purely on pixel intensity values.
 - ❌ Histogram Equalization
 - ❌ Adaptive Histogram Equalization (CLAHE)
 - ❌ Histogram Matching
+
+## Samples
+**Negative Transform Sample**
+![Negative Transform](/samples/transform/linear/negative_transform_result.png)
+
+*The Negative Transform inverts the intensity of each pixel, producing a photographic negative effect where dark areas become light and light areas become dark.*
+
+**Brightness Adjustment Sample**
+_Sample coming soon._
+
+**Contrast Scaling Sample**
+_Sample coming soon._
+
+**Linear Intensity Rescaling Sample**
+_Sample coming soon._
+
+**Log Transform Sample**
+_Sample coming soon._
+
+**Power-Law (Gamma) Transform Sample**
+_Sample coming soon._
+
+**Sigmoid / S-curve Transform Sample**
+_Sample coming soon._
+
+**Piecewise Linear Transform Sample**
+_Sample coming soon._
+
+**Histogram Equalization Sample**
+_Sample coming soon._
+
+**Adaptive Histogram Equalization (CLAHE) Sample**
+_Sample coming soon._
+
+**Histogram Matching Sample**
+_Sample coming soon._
+
+
