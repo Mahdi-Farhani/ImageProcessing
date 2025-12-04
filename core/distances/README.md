@@ -5,7 +5,7 @@ This module contains implementations of various distance metrics used in image p
 ## Contents
 - ✔️ Euclidean distance
 - ✔️ Manhattan distance
-- ❌ Chess-board distance
+- ✔️ Chess-board distance
 - ❌ Chebyshev distance
 - ❌ Minkowski distance
 - ❌ Cosine distance
