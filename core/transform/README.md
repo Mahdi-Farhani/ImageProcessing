@@ -5,6 +5,7 @@ This module provides a clean, unified, and extensible framework for performing v
 All transforms follow a consistent architecture based on a base class (an abstract class that defines the common interface for all transforms), a central registry (a system that keeps track of available transforms and allows dynamic registration), and a minimal API for applying transformations on images.
 
 The goal is to make it easy to expand the system with new types of image transformations, while keeping usage simple and predictable.
+
 ---
 ## 1. Module Overview
 Image transforms are operations that modify the pixel values or structure of an image, such as enhancing contrast, adjusting colors, rotating, resizing, or filtering to extract features or improve visual quality.
@@ -87,6 +88,6 @@ The Transform Module provides:
 
 - A clean and modular architecture
 - Unified API for all transform types
-- Implementation of the first linear intensity transform (Negative) in [core/transform/intensity/negative.py](intensity/negative.py)
+- Implementation of the first linear intensity transform (Negative) in [core/transform/intensity/linear/negative.py](intensity/linear/negative.py)
 - A clear roadmap for expanding into color, geometric, and frequency transforms
 - Planned upcoming features include support for advanced color transforms, geometric operations (scaling, rotation, affine), and frequency-domain processing (FFT, DCT), making the module suitable for a wide range of imaging workflows.
