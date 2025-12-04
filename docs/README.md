@@ -16,6 +16,6 @@ Public interface specifications, parameter rules, instantiation logic, Minkowski
 4. [Examples](example.md)
 A complete collection of runnable examples showcasing how each distance metric is used through the unified API.
 
-5. [Roadmap]()
+5. [Roadmap](roadmap.md)
 Planned algorithms (SSIM, LPIPS, Hausdorff, EMD, etc.), future improvements, performance upgrades, and long‑term goals for the project.
 

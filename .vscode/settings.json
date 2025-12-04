@@ -33,6 +33,7 @@
         "ipplayground",
         "Kullback",
         "Leibler",
-        "Tanimoto"
+        "Tanimoto",
+        "Thresholding"
     ]
 }
