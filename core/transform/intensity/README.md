@@ -41,7 +41,9 @@ _Sample coming soon._
 _Sample coming soon._
 
 **Log Transform Sample**
-_Sample coming soon._
+![Log Transform](/samples/transform/non_linear/log_transform_result.png)
+
+*The Log Transform enhances details in dark regions by expanding low‑intensity values while compressing high‑intensity ranges, making subtle shadow information more visible and reducing extreme highlights.*
 
 **Power-Law (Gamma) Transform Sample**
 _Sample coming soon._
