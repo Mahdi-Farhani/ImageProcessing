@@ -16,6 +16,7 @@ Transforms that operate purely on pixel intensity values.
 
 1.2 Nonlinear Intensity Transforms 
 - ✔️ Log Transform
+- ✔️ Exponential Transform
 - ❌ Power-Law (Gamma) Transform
 - ❌ Sigmoid / S-curve Transform
 - ❌ Piecewise Linear Transform
@@ -44,6 +45,11 @@ _Sample coming soon._
 ![Log Transform](/samples/transform/non_linear/log_transform_result.png)
 
 *The Log Transform enhances details in dark regions by expanding low‑intensity values while compressing high‑intensity ranges, making subtle shadow information more visible and reducing extreme highlights.*
+
+**Exponential Transform Sample**
+![Exponential Transform](/samples/transform/non_linear/exponential_transform_result.png)
+
+*The Exponential Transform amplifies high‑intensity values while compressing darker regions, producing stronger highlights and emphasizing bright details in images with light‑dominant structures.*
 
 **Power-Law (Gamma) Transform Sample**
 _Sample coming soon._
