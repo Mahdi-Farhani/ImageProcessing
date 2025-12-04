@@ -1,5 +1,6 @@
 from core.transform.intensity.linear.negative import NegativeTransform
-from core.transform.intensity.non_linear.log_transform import LogTransform
+from core.transform.intensity.non_linear.log import LogTransform
+from core.transform.intensity.non_linear.exponential import ExponentialTransform
 from core.transform.frequency.fourier import FourierTransform
 
 _TRANSFORMERS={
@@ -7,6 +8,7 @@ _TRANSFORMERS={
     "negative": NegativeTransform,
     # Intensity Non-Linear Transforms
     "log": LogTransform,
+    "exponential": ExponentialTransform,
     # Frequency-Domain Transforms 
     "fourier": FourierTransform,
 }
