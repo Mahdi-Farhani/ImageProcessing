@@ -17,7 +17,12 @@ This repository contains:
 The goal is to build a practical, evolving toolbox for understanding and experimenting with core concepts in image processing.
 
 ---
+## 📚 Documentation
+A dedicated documentation directory is available and will expand as the project grows.
 
+You can find all design notes, architecture diagrams, API descriptions, and usage guides [here](/docs/)
+
+---
 ## 🧰 Features
 
 - Pure Python + NumPy + OpenCV (and optionally SciPy/Matplotlib)
@@ -79,7 +84,6 @@ From time to time, small standalone programs will be added, such as:
 - Algorithm comparison experiments  
 
 ---
-
 ## 🤝 Contributions
 
 This repository is mainly for personal learning, but feedback, ideas, or improvements are welcome.
