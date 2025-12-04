@@ -2,7 +2,7 @@ from core.transform.linear.negative import NegativeTransform
 
 
 _TRANSFORMERS={
-    "Negative": NegativeTransform,
+    "negative": NegativeTransform,
 }
 
 def get_transformer(name: str):
