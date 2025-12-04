@@ -2,13 +2,14 @@ from .euclidean import EuclideanDistance
 from .manhattan import ManhattanDistance
 from .chess_board import ChessBoardDistance
 from .minkowski import MinkowskiDistance
-
+from .cosine import CosineDistance
 
 _METRICS = {
     "euclidean": EuclideanDistance,
     "manhattan": ManhattanDistance,
     "chessboard": ChessBoardDistance,
-    "minkowski": MinkowskiDistance,
+    "minkowski": MinkowskiDistance(p=3),  # Default p=3 for Minkowski
+    "cosine": CosineDistance,
 }
 
 def get_distance_metric(name: str):
