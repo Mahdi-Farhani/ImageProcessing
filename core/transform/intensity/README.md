@@ -2,12 +2,6 @@
 
 This module contains transformation functions that operate directly on the intensity values of images. These operations modify pixel brightness levels to enhance contrast, invert intensity, normalize ranges, and build more advanced tone‑mapping steps.
 
-All transforms follow a simple pattern-based architecture:
-
-- Each transform inherits from a base class.
-- All transforms are registered in a central registry.
-- The API exposes a unified entry point for applying any transform.
-
 ---
 ## Contents
 
