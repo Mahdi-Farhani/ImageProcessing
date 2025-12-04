@@ -101,3 +101,5 @@ Notes:
 
 - Works on binary or categorical vectors
 - Common in hash-based representations
+
+---

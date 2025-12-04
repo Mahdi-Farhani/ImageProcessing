@@ -91,6 +91,7 @@ User-facing API.
 Handles parameterization (e.g., Minkowski p-value) and invokes the right metric.
 
 **samples/**
+
 Contains small example scripts demonstrating how to call the API.
 
 

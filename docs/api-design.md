@@ -1,7 +1,7 @@
-### API Design
+## API Design
 This document describes the public API surface used to compute distance metrics in a clean, simple, and unified way.
 
-## Distance API
+### Distance API
 The API for distance computation in this project is intentionally designed using the Strategy Design Pattern.
 
 Distance metrics naturally fit the Strategy model because:
