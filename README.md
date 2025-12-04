@@ -84,6 +84,31 @@ From time to time, small standalone programs will be added, such as:
 - Algorithm comparison experiments  
 
 ---
+📊Datasets
+**BSDS300**
+Dataset Reference If you use the Berkeley Segmentation Dataset (BSDS300/BSDS500) in your experiments, please cite the original publication:
+
+```
+@InProceedings{MartinFTM01,
+  author    = {D. Martin and C. Fowlkes and D. Tal and J. Malik},
+  title     = {A Database of Human Segmented Natural Images and its Application
+               to Evaluating Segmentation Algorithms and Measuring Ecological Statistics},
+  booktitle = {Proc. 8th Int'l Conf. Computer Vision},
+  year      = {2001},
+  month     = {July},
+  volume    = {2},
+  pages     = {416--423}
+}
+```
+Alternatively, in plain text:
+
+Martin, D., Fowlkes, C., Tal, D., & Malik, J. (2001).
+
+A Database of Human Segmented Natural Images and its Application to Evaluating Segmentation Algorithms and Measuring Ecological Statistics.
+
+In Proc. ICCV, vol. 2, pp. 416–423.
+
+---
 ## 🤝 Contributions
 
 This repository is mainly for personal learning, but feedback, ideas, or improvements are welcome.
