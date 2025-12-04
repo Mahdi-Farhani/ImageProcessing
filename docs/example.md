@@ -1,7 +1,7 @@
 ## Examples and usages
 This document collects example usages for all modules of the project.
 
-To keep the document scalable as new modules are added, examples are organized into clearly separated sections.
+To keep the document scalable as new modules are added
 
 index:
 
