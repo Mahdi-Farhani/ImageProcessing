@@ -15,7 +15,7 @@ Transforms that operate purely on pixel intensity values.
 - ❌ Linear Intensity Rescaling 
 
 1.2 Nonlinear Intensity Transforms 
-- ❌ Log Transform
+- ✔️ Log Transform
 - ❌ Power-Law (Gamma) Transform
 - ❌ Sigmoid / S-curve Transform
 - ❌ Piecewise Linear Transform
