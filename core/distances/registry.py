@@ -9,7 +9,7 @@ _METRICS = {
     "euclidean": EuclideanDistance,
     "manhattan": ManhattanDistance,
     "chessboard": ChessBoardDistance,
-    "minkowski": MinkowskiDistance(p=3),  # Default p=3 for Minkowski
+    "minkowski": MinkowskiDistance,  # Default p=3 for Minkowski
     "cosine": CosineDistance,
     "hamming": HammingDistance,
 }
