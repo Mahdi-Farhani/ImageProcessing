@@ -1,7 +1,6 @@
 ### 📚 Documentation Index (Table of Contents)
 
 Below is the complete documentation index for the ImageProcessing Playground project.
-
 Each document is written in English and organized for clarity, modularity, and professional engineering workflows.
 
 ---
