@@ -1,7 +1,8 @@
-from core.transform.linear.negative import NegativeTransform
+from core.transform.intensity.linear.negative import NegativeTransform
 
 
 _TRANSFORMERS={
+    # Intensity Linear Transforms
     "negative": NegativeTransform,
 }
 
