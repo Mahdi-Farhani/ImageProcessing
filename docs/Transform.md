@@ -252,40 +252,6 @@ class NegativeTransform(TransformBase):
    - Input is 8-bit image (pixel values 0-255)
    - Works with grayscale, RGB, or any format with values in [0, 255]
 
-#### Improvements (Future Enhancements)
-
-```python
-import numpy as np
-from core.transform.base import TransformBase
-
-class NegativeTransform(TransformBase):
-    def __init__(self, max_value: int = 255):
-        """
-        Initialize Negative Transform.
-        
-        Args:
-            max_value: Maximum pixel value (255 for 8-bit, 65535 for 16-bit, 1.0 for float)
-        """
-        self.max_value = max_value
-    
-    def apply(self, data: np.ndarray) -> np.ndarray:
-        """
-        Apply negative transformation to the input data.
-        
-        Args:
-            data: Input image array
-            
-        Returns:
-            Negative of input image
-            
-        Raises:
-            ValueError: If data contains values outside valid range
-        """
-        if data.min() < 0 or data.max() > self.max_value:
-            raise ValueError(f"Input values must be in range [0, {self.max_value}]")
-        return self.max_value - data
-```
-
 ### Registry System: `core/transform/registry.py`
 
 ```python
@@ -444,7 +410,7 @@ for filename in os.listdir(image_dir):
         ImageCoreUtility.save_image(result, output_path)
 ```
 
-### Example 4: Chaining Transforms (Planned)
+### Example 4: Chaining Transforms
 
 ```python
 # Future capability
