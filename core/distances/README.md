@@ -7,8 +7,8 @@ This module contains implementations of various distance metrics used in image p
 - ✔️ Manhattan distance
 - ✔️ Chess-board (Chebyshev) distance
 - ✔️ Minkowski distance
-- ❌ Cosine distance
-- ❌ Hamming distance
+- ✔️ Cosine distance
+- ✔️ Hamming distance
 
 Each metric is implemented in its own file for modularity, while a unified API is provided in `api.py` for simple usage.
 

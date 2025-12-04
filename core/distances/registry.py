@@ -3,6 +3,7 @@ from .manhattan import ManhattanDistance
 from .chess_board import ChessBoardDistance
 from .minkowski import MinkowskiDistance
 from .cosine import CosineDistance
+from .hamming import HammingDistance
 
 _METRICS = {
     "euclidean": EuclideanDistance,
@@ -10,6 +11,7 @@ _METRICS = {
     "chessboard": ChessBoardDistance,
     "minkowski": MinkowskiDistance(p=3),  # Default p=3 for Minkowski
     "cosine": CosineDistance,
+    "hamming": HammingDistance,
 }
 
 def get_distance_metric(name: str):
