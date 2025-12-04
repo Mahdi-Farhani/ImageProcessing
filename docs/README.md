@@ -3,6 +3,7 @@
 Below is the complete documentation index for the ImageProcessing Playground project.
 
 Each document is written in English and organized for clarity, modularity, and professional engineering workflows.
+
 ---
 1. [Architecture](architecture.md)
 Describes the internal system structure, folder hierarchy, design patterns (Strategy, etc.), the flow between API → Registry → Metric, and responsibilities of each module.
