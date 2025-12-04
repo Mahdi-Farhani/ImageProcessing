@@ -13,7 +13,7 @@ Mathematical definitions, formulas, properties, and usage for all implemented di
 3. [API Design](api-design.md)
 Public interface specifications, parameter rules, instantiation logic, Minkowski p‑value handling, and examples illustrating how to interact with the system.
 
-4. [Examples]()
+4. [Examples](example.md)
 A complete collection of runnable examples showcasing how each distance metric is used through the unified API.
 
 5. [Roadmap]()
